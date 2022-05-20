@@ -54,7 +54,7 @@ public:
 
 int main()
 {
-	Arithmetic<int> ar(10,5);
+	Arithmetic<float> ar(10.2,5.8);
 
 	cout << "Addition: " << ar.add() << endl;
 	cout << "Substraction: " << ar.sub() << endl;
